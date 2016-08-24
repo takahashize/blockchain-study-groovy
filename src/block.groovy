@@ -4,6 +4,7 @@
 ])
 import org.bitcoinj.core.Block
 import org.bitcoinj.core.Context
+import org.bitcoinj.core.Message
 import org.bitcoinj.params.UnitTestParams
 
 def context = new Context(UnitTestParams.get())
